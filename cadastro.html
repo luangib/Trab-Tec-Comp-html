@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+    <style>
+    header{font-size: 30px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: cadetblue; width: 100%; 
+    margin: 0px;
+    padding: 20px;
+    height: 5vh;
+    color: aliceblue;
+    }
+
+    footer{
+    align-items: center;
+    margin: auto;
+    background-color: rgb(49, 47, 47);
+    height: 35vh;
+    color: aliceblue;
+   text-align: center;
+    
+
+    }
+
+    input{
+        border-radius: 20px;
+        padding: 5px;
+        margin: 4px;
+        font-size: 15px;
+    }
+    #submit{
+        color: aliceblue;
+        background-color: rgb(95, 159, 184);
+        padding: 10px 40px 10px 40px;
+        text-decoration: none;
+        border: black solid 1px;
+        border-radius: 25px;
+        
+    }
+
+    #limpar{
+        color: aliceblue;
+        background-color: rgb(216, 77, 77);
+        padding: 10px;
+
+    }
+
+    fieldset{
+        border:rgb(2, 1, 1) solid 3px ;
+        text-align: center;
+        border-radius: 25px ;
+        width: fit-content;
+        padding: 30px;
+        margin: auto;
+        
+        
+       
+
+
+    }
+
+    body{
+    margin: 0px;
+    background-color: grey;
+    }
+
+    main{
+
+
+
+    }
+
+.element{
+margin: 10px;
+
+}
+
+.legendas{
+float: left;
+font-size: 12px;
+
+
+}
+
+.date{
+padding: 5px 40px 5px 40px;
+
+
+}
+
+.ocupacao{
+border-radius: 25px;
+font-size: 15px;
+outline: black outset 1px;
+padding: 5px 40px 5px 40px;
+
+}
+.opcoes{
+float: left;
+text-align:left;
+
+
+}
+
+.logo{
+width: 30px;
+
+
+}
+    </style>
+</head>
+
+
+
+<body>
+    <header style="">
+        <img src="logo.png" alt="" class="logo">
+Cadastro
+    </header>
+    <main style="margin: 20px;">
+        <fieldset>
+            <legend>Insira seus dados</legend>
+      <form action="" style="">
+
+     <input type="text" placeholder="Nome" class="element">
+        <br>
+       <input type="email" placeholder="Email" class="element">
+        <br>
+        <input type="password" placeholder="Senha"class="element">
+        <br>
+        <div class="legendas">Data Nascimento</div> <br>
+        <input type="date" placeholder="data" class="element date">
+        <br>
+        <div class="legendas">Gênero</div>
+        <div>
+            <div>Masculino<input type="radio" id="emp" name="emp" class="element"></div>
+            
+            <div>Feminino<input type="radio" id="emp" name="emp" class="element"></div>
+            <div>Personalizado<input type="radio" id="emp" name="emp" class="element"></div>
+            
+            
+        </div>
+        <div class="legendas">Ocupação</div>
+        
+        <div><select name="ocupação" id="ocupação" class="element ocupacao">
+            <option value="" class="opcoes">Estudante</option>
+            <option value="" class="opcoes">Assalariado</option>
+            <option value="" class="opcoes">Empresário</option>
+            <option value="" class="opcoes">Desempregado</option>
+
+        </select> </div>
+
+        <div>Lembrar De mim<input type="checkbox"></div>
+        <br>
+        <a href="index.html" id="submit">Cadastre-se </a>
+        
+        <br>
+        <br>
+        <a href="login.html">Já tem conta?</a>
+        
+        <br>
+
+      </form> 
+    </fieldset> 
+        
+
+    </main>
+    <footer> <h3>A Frontier é uma das empresas do conglomerado Luangib Enterprises</h4>
+        
+       
+        <legend><b>Referencias do site:</b> </legend>
+        <div>Imagens e logo: Julia Camilo</div>
+        <br>
+        <div>Criador do projeto: Luan Coutinho</div>
+     
+        
+    </ul>
+</footer>
+</body>
+</html>
